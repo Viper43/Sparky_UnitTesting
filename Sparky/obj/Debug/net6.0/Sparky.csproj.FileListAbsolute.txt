@@ -1,0 +1,12 @@
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\bin\Debug\net6.0\Sparky.deps.json
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\bin\Debug\net6.0\Sparky.dll
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\bin\Debug\net6.0\Sparky.pdb
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.csproj.AssemblyReference.cache
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.AssemblyInfoInputs.cache
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.AssemblyInfo.cs
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.csproj.CoreCompileInputs.cache
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.dll
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\refint\Sparky.dll
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\Sparky.pdb
+D:\Workspace\Codes\C# Codes\Sparky\Sparky\obj\Debug\net6.0\ref\Sparky.dll

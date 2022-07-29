@@ -6229,11 +6229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\Codes\\C# Codes\\Sparky\\SparkyMSTest\\SparkyMSTest.csproj",
+      "projectUniqueName": "D:\\Workspace\\Projects\\Sparky_UnitTesting\\SparkyMSTest\\SparkyMSTest.csproj",
       "projectName": "SparkyMSTest",
-      "projectPath": "D:\\Workspace\\Codes\\C# Codes\\Sparky\\SparkyMSTest\\SparkyMSTest.csproj",
+      "projectPath": "D:\\Workspace\\Projects\\Sparky_UnitTesting\\SparkyMSTest\\SparkyMSTest.csproj",
       "packagesPath": "C:\\Users\\Shreyan\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\Codes\\C# Codes\\Sparky\\SparkyMSTest\\obj\\",
+      "outputPath": "D:\\Workspace\\Projects\\Sparky_UnitTesting\\SparkyMSTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shreyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6250,8 +6250,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Workspace\\Codes\\C# Codes\\Sparky\\Sparky\\Sparky.csproj": {
-              "projectPath": "D:\\Workspace\\Codes\\C# Codes\\Sparky\\Sparky\\Sparky.csproj"
+            "D:\\Workspace\\Projects\\Sparky_UnitTesting\\Sparky\\Sparky.csproj": {
+              "projectPath": "D:\\Workspace\\Projects\\Sparky_UnitTesting\\Sparky\\Sparky.csproj"
             }
           }
         }
