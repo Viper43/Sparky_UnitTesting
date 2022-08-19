@@ -11,17 +11,11 @@ namespace Sparky
         public int Severity { get; set; }
         public string LogType { get; set; }
         void Message(string message);
-
         bool LogToDB(string message);
-
         bool LogBalanceAfterWithdrawal(int balanceAfterWithdrawal);
-
         string MessageWithReturnStr(string message);
-
         bool LogWithOutputResult(string message, out string outputStr);
-
         bool LogWithRefObj(ref Customer customer);
-
     }
     public class LogBook : ILogBook
     {

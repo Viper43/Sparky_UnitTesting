@@ -1,0 +1,17 @@
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.Core.deps.json
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.Core.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.Core.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.DataAccess.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.Models.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.DataAccess.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\bin\Debug\net6.0\Bongo.Models.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.csproj.AssemblyReference.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.AssemblyInfoInputs.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.AssemblyInfo.cs
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.csproj.CoreCompileInputs.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.csproj.CopyComplete
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\refint\Bongo.Core.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\Bongo.Core.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Core\obj\Debug\net6.0\ref\Bongo.Core.dll

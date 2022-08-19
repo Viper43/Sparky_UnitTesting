@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.8908" branch-rate="0.8125" version="1.9" timestamp="1659974447" lines-covered="302" lines-valid="339" branches-covered="26" branches-valid="32">
+  <sources>
+    <source>D:\Workspace\Projects\Sparky_UnitTesting\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="Sparky" line-rate="0.7464" branch-rate="0.8125" complexity="59">
+      <classes>
+        <class name="Sparky.BankAccount" filename="Sparky\BankAccount.cs" line-rate="0.8332999999999999" branch-rate="0.5" complexity="8">
+          <methods>
+            <method name="get_Balance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="Deposit" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+                <line number="16" hits="6" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="False" />
+                <line number="19" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="Withdrawal" signature="(System.Int32)" line-rate="0.5" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="21" hits="4" branch="False" />
+                <line number="22" hits="4" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="3" type="jump" coverage="50%" />
+                    <condition number="22" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="GetBalance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="2" branch="False" />
+                <line number="34" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Sparky.ILogBook)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="6" branch="False" />
+                <line number="8" hits="6" branch="False" />
+                <line number="9" hits="6" branch="False" />
+                <line number="10" hits="6" branch="False" />
+                <line number="11" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="24" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="16" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="False" />
+            <line number="19" hits="6" branch="False" />
+            <line number="21" hits="4" branch="False" />
+            <line number="22" hits="4" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="3" type="jump" coverage="50%" />
+                <condition number="22" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="7" hits="6" branch="False" />
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.Calculator" filename="Sparky\Calculator.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="AddNumbers" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="AddNumbers" signature="(System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="IsOddNumber" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="6" branch="False" />
+                <line number="19" hits="6" branch="False" />
+                <line number="20" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="GetOddRange" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="26" hits="14" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="57" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="6" branch="False" />
+                <line number="28" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="26" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="6" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="18" hits="6" branch="False" />
+            <line number="19" hits="6" branch="False" />
+            <line number="20" hits="6" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="26" hits="14" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="57" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="6" branch="False" />
+            <line number="28" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="26" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="6" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="5" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.Customer" filename="Sparky\Customer.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_Discount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="13" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GreetingMsg" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OrderTotal" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsPlatinum" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="GreetAndCombineNames" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="39" hits="4" branch="False" />
+                <line number="40" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="2" branch="False" />
+                <line number="42" hits="2" branch="False" />
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerType" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="10" branch="False" />
+                <line number="26" hits="10" branch="False" />
+                <line number="27" hits="10" branch="False" />
+                <line number="28" hits="10" branch="False" />
+                <line number="29" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="13" branch="False" />
+            <line number="32" hits="12" branch="False" />
+            <line number="34" hits="4" branch="False" />
+            <line number="36" hits="12" branch="False" />
+            <line number="39" hits="4" branch="False" />
+            <line number="40" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="41" hits="2" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="52" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="25" hits="10" branch="False" />
+            <line number="26" hits="10" branch="False" />
+            <line number="27" hits="10" branch="False" />
+            <line number="28" hits="10" branch="False" />
+            <line number="29" hits="10" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.Fibo" filename="Sparky\Fibo.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Range" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="GetFiboSeries" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="17" hits="2" branch="False" />
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="6" branch="False" />
+                <line number="20" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="26" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="101" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="False" />
+                <line number="30" hits="4" branch="False" />
+                <line number="31" hits="4" branch="False" />
+                <line number="32" hits="4" branch="False" />
+                <line number="33" hits="4" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="11" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="6" branch="False" />
+            <line number="20" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="26" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="101" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="False" />
+            <line number="30" hits="4" branch="False" />
+            <line number="31" hits="4" branch="False" />
+            <line number="32" hits="4" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.GradingCalculator" filename="Sparky\GradingCalculator.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="get_Score" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AttendancePercentage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="17" branch="False" />
+              </lines>
+            </method>
+            <method name="GetGrade" signature="()" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="14" hits="7" branch="False" />
+                <line number="15" hits="7" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                    <condition number="26" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="6" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="100%" />
+                    <condition number="61" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="2" branch="False" />
+                <line number="19" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="94" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="24" branch="False" />
+            <line number="12" hits="17" branch="False" />
+            <line number="14" hits="7" branch="False" />
+            <line number="15" hits="7" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+                <condition number="26" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="6" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="44" type="jump" coverage="100%" />
+                <condition number="61" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="18" hits="2" branch="False" />
+            <line number="19" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="94" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.LogBook" filename="Sparky\LogBook.cs" line-rate="0" branch-rate="0" complexity="9">
+          <methods>
+            <method name="get_Severity" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LogType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Message" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="LogToDB" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="LogBalanceAfterWithdrawal" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="10" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="MessageWithReturnStr" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="LogWithOutputResult" signature="(System.String,System.String&amp;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="LogWithRefObj" signature="(Sparky.Customer&amp;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="10" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.Product" filename="Sparky\Product.cs" line-rate="0.6923" branch-rate="0.5" complexity="7">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Price" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="GetPrice" signature="(Sparky.Customer)" line-rate="0.8" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="18" hits="1" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetPrice" signature="(Sparky.ICustomer)" line-rate="0.8" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="1" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="4" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="18" hits="1" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="26" hits="1" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SparkyXUnitTests" line-rate="0.9948999999999999" branch-rate="1" complexity="32">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="Users\Shreyan\.nuget\packages\microsoft.net.test.sdk\17.2.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.BankAccountXUnitTests" filename="SparkyXUnitTests\BankAccountXUnitTests.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="Deposit_Add100_ReturnTrue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="BankWithdraw_Withdraw100With200Balance_ReturnTrue" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="2" branch="False" />
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="BankWithdraw_WithdrawMoreThanBalanceWith200Balance_ReturnTrue" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="2" branch="False" />
+                <line number="60" hits="2" branch="False" />
+                <line number="61" hits="2" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="64" hits="2" branch="False" />
+                <line number="65" hits="2" branch="False" />
+                <line number="66" hits="2" branch="False" />
+                <line number="68" hits="2" branch="False" />
+                <line number="69" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="BankLogDummy_LogMockString_ReturnTrue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="BankLogDummy_LogMockStringOutputStr_ReturnTrue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="BankLogDummy_LogRefChecker_ReturnTrue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="BankLogDummy_SetAndCheckSeverityAndLogTypeMock_MockTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="2" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="2" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="BankLogDummy_VerifyExample" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+                <line number="144" hits="2" branch="False" />
+                <line number="145" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="2" branch="False" />
+            <line number="60" hits="2" branch="False" />
+            <line number="61" hits="2" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="64" hits="2" branch="False" />
+            <line number="65" hits="2" branch="False" />
+            <line number="66" hits="2" branch="False" />
+            <line number="68" hits="2" branch="False" />
+            <line number="69" hits="2" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="2" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="2" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="142" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+            <line number="144" hits="2" branch="False" />
+            <line number="145" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.CalculatorXUnitTests" filename="SparkyXUnitTests\CalculatorXUnitTests.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="AddNumbers_InputTwoInt_GetCorrectAddition" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsOddChecker_InputEvenInt_ReturnFalse" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="IsOddChecker_InputOddInt_ReturnTrue" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="3" branch="False" />
+                <line number="54" hits="3" branch="False" />
+                <line number="58" hits="3" branch="False" />
+                <line number="59" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="IsOddChecker_InputInt_ReturnTrueIfOdd" signature="(System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="2" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="AddNumbers_InputTwoDouble_GetCorrectAddition" signature="(System.Double,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="83" hits="3" branch="False" />
+                <line number="88" hits="3" branch="False" />
+                <line number="91" hits="3" branch="False" />
+                <line number="92" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="OddRanger_InputMinAndMaxRange_ReturnsValidOddNumberRange" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="4" branch="False" />
+                <line number="108" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="11" branch="False" />
+                <line number="15" hits="11" branch="False" />
+                <line number="16" hits="11" branch="False" />
+                <line number="17" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="49" hits="3" branch="False" />
+            <line number="54" hits="3" branch="False" />
+            <line number="58" hits="3" branch="False" />
+            <line number="59" hits="3" branch="False" />
+            <line number="65" hits="2" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="83" hits="3" branch="False" />
+            <line number="88" hits="3" branch="False" />
+            <line number="91" hits="3" branch="False" />
+            <line number="92" hits="3" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="4" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="14" hits="11" branch="False" />
+            <line number="15" hits="11" branch="False" />
+            <line number="16" hits="11" branch="False" />
+            <line number="17" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.CustomerXUnitTests" filename="SparkyXUnitTests\CustomerXUnitTests.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="CombineName_InputFirstAndLastName_ReturnFullName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GreetingMsg_NotGreeted_ReturnsNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="DiscountCheck_DefaultCustomer_ReturnDiscountInRange" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GreetMessage_GreetWithoutLastName_ReturnsNotNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GreetChecker_EmptyFirstName_ThrowsException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CustomerType_InputOrderTotal_ReturnCustomerTypeAsBasicIfOrderTotalLessThan100" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CustomerType_InputOrderTotal_ReturnCustomerTypeAsPlatinumIfOrderTotalMoreThan100" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="7" branch="False" />
+                <line number="10" hits="7" branch="False" />
+                <line number="11" hits="7" branch="False" />
+                <line number="12" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="9" hits="7" branch="False" />
+            <line number="10" hits="7" branch="False" />
+            <line number="11" hits="7" branch="False" />
+            <line number="12" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.FiboXUnitTests" filename="SparkyXUnitTests\FiboXUnitTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="FiboChecker_Input1_returnsFiboSeries" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="FiboChecker_Input6_returnsFiboSeries" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="7" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="7" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.GradingCalculatorXUnitTests" filename="SparkyXUnitTests\GradingCalculatorXUnitTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetGrade_InputScoreAndAttendance_GetProperGrade" signature="(System.Int32,System.Int32,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="7" branch="False" />
+                <line number="30" hits="7" branch="False" />
+                <line number="31" hits="7" branch="False" />
+                <line number="33" hits="7" branch="False" />
+                <line number="34" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="7" branch="False" />
+                <line number="16" hits="7" branch="False" />
+                <line number="17" hits="7" branch="False" />
+                <line number="18" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="7" branch="False" />
+            <line number="30" hits="7" branch="False" />
+            <line number="31" hits="7" branch="False" />
+            <line number="33" hits="7" branch="False" />
+            <line number="34" hits="7" branch="False" />
+            <line number="15" hits="7" branch="False" />
+            <line number="16" hits="7" branch="False" />
+            <line number="17" hits="7" branch="False" />
+            <line number="18" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="Sparky.ProductXUnitTests" filename="SparkyXUnitTests\ProductXUnitTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetProductPrice_PlatinumCustomer_ReturnPriceWith20Discount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetProductPriceMOQAbuse_PlatinumCustomer_ReturnPriceWith20Discount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

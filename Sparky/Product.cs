@@ -19,5 +19,13 @@ namespace Sparky
 
             return Price;
         }
+
+        public double GetPrice(ICustomer customer)
+        {
+            if (customer.IsPlatinum)
+                return Price * 0.8;
+
+            return Price;
+        }
     }
 }

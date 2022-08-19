@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sparky
+﻿namespace Sparky
 {
     public class BankAccount
     {
@@ -15,14 +9,14 @@ namespace Sparky
             Balance = 0;
             _logbook = logbook;
         }
-
-        public bool Deposit(int amt)
+        public bool Deposit(int amt) 
         {
             _logbook.Message("Deposited");
+            _logbook.Message("Test");
+            _logbook.Severity = 101;
             Balance += amt;
             return true;
         }
-
         public bool Withdrawal(int amt)
         {
             if( amt < 0 && amt <= Balance)

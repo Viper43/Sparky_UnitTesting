@@ -1,0 +1,17 @@
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\bin\Debug\net6.0\Bongo.DataAccess.deps.json
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\bin\Debug\net6.0\Bongo.DataAccess.runtimeconfig.json
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\bin\Debug\net6.0\Bongo.DataAccess.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\bin\Debug\net6.0\Bongo.DataAccess.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\bin\Debug\net6.0\Bongo.Models.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\bin\Debug\net6.0\Bongo.Models.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.csproj.AssemblyReference.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.AssemblyInfoInputs.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.AssemblyInfo.cs
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.csproj.CoreCompileInputs.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.csproj.CopyComplete
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\refint\Bongo.DataAccess.dll
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.pdb
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\Bongo.DataAccess.genruntimeconfig.cache
+D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.DataAccess\obj\Debug\net6.0\ref\Bongo.DataAccess.dll

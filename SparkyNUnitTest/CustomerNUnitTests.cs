@@ -25,16 +25,16 @@ namespace Sparky
             
 
             // Act
-            _customer.GreetAndCombineNames("Debdita", "Kar");
+            _customer.GreetAndCombineNames("Eleven", "El");
 
             // Assert
             Assert.Multiple(() =>
             {
-                Assert.That(_customer.GreetingMsg, Is.EqualTo("Hello, Debdita Kar"));
-                Assert.AreEqual("Hello, Debdita Kar", _customer.GreetingMsg);
-                Assert.That(_customer.GreetingMsg, Does.Contain("debdita kar").IgnoreCase);
+                Assert.That(_customer.GreetingMsg, Is.EqualTo("Hello, Eleven El"));
+                Assert.AreEqual("Hello, Eleven El", _customer.GreetingMsg);
+                Assert.That(_customer.GreetingMsg, Does.Contain("eleven el").IgnoreCase);
                 Assert.That(_customer.GreetingMsg, Does.StartWith("Hello"));
-                Assert.That(_customer.GreetingMsg, Does.EndWith("Kar"));
+                Assert.That(_customer.GreetingMsg, Does.EndWith("El"));
                 Assert.That(_customer.GreetingMsg, Does.Match("Hello, [A-Z]{1}[a-z]+ [A-Z]{1}[a-z]+"));
             });
         }
@@ -46,7 +46,7 @@ namespace Sparky
             
 
             // Act
-            //string fullName = customer.GreetAndCombineNames("Debdita", "Kar");
+            //string fullName = customer.GreetAndCombineNames("Eleven", "El");
 
             // Assert
             Assert.IsNull(_customer.GreetingMsg);
@@ -70,7 +70,7 @@ namespace Sparky
         {
             // Arrange
             // Act
-            _customer.GreetAndCombineNames("Debdita", "");
+            _customer.GreetAndCombineNames("Eleven", "");
 
             // Assert
             Assert.IsNotNull(_customer.GreetingMsg);
@@ -80,14 +80,14 @@ namespace Sparky
         [Test]
         public void GreetChecker_EmptyFirstName_ThrowsException()
         {
-            var exceptionDetails = Assert.Throws<ArgumentException>(() => _customer.GreetAndCombineNames("", "Kar"));
+            var exceptionDetails = Assert.Throws<ArgumentException>(() => _customer.GreetAndCombineNames("", "El"));
 
             Assert.AreEqual("First Name is Empty", exceptionDetails.Message);
-            Assert.That(() => _customer.GreetAndCombineNames("", "Kar"), Throws.ArgumentException.With.Message.EqualTo("First Name is Empty"));
+            Assert.That(() => _customer.GreetAndCombineNames("", "El"), Throws.ArgumentException.With.Message.EqualTo("First Name is Empty"));
 
-            Assert.Throws<ArgumentException>(() => _customer.GreetAndCombineNames("", "Kar"));
+            Assert.Throws<ArgumentException>(() => _customer.GreetAndCombineNames("", "El"));
 
-            Assert.That(() => _customer.GreetAndCombineNames("", "Kar"), Throws.ArgumentException);
+            Assert.That(() => _customer.GreetAndCombineNames("", "El"), Throws.ArgumentException);
         }
 
         [Test]

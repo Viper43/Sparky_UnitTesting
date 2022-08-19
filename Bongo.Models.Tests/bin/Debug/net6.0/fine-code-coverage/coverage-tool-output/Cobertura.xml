@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.6666666666666666" branch-rate="0.75" lines-covered="24" lines-valid="36" branches-covered="3" branches-valid="4" complexity="20" version="0" timestamp="1659994301">
+  <sources>
+    <source>D:\Workspace\Projects\Sparky_UnitTesting\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="Bongo.Models" line-rate="0.5925925925925926" branch-rate="0.75" complexity="17">
+      <classes>
+        <class name="Bongo.Models.Model.StudyRoom" filename="D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\StudyRoom.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_RoomNumber" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_RoomName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Bongo.Models.Model.StudyRoomBooking" filename="D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\StudyRoomBooking.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_BookingId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_StudyRoomId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Bongo.Models.Model.VM.StudyRoomBookingBase" filename="D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\VM\StudyRoomBookingBase.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_FirstName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Date" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Bongo.Models.Model.VM.StudyRoomBookingResult" filename="D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Models\Model\VM\StudyRoomBookingResult.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Code" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_BookingId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Bongo.Models.ModelValidations.DateInFutureAttribute" filename="D:\Workspace\Projects\Sparky_UnitTesting\Bongo_InitialSetup (.NET 6)\Bongo.Models\ModelValidations\DateInFutureAttribute.cs" line-rate="1" branch-rate="0.75" complexity="6">
+          <methods>
+            <method name="IsValid" signature="(...)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="26" hits="2" branch="false" />
+                <line number="27" hits="2" branch="false" />
+                <line number="29" hits="2" branch="true" condition-coverage="75% (3/4)" />
+                <line number="30" hits="2" branch="false" />
+                <line number="31" hits="2" branch="false" />
+                <line number="32" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
+                <line number="35" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="3" branch="false" />
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="3" branch="false" />
+                <line number="23" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="23" hits="3" branch="false" />
+            <line number="26" hits="2" branch="false" />
+            <line number="27" hits="2" branch="false" />
+            <line number="29" hits="2" branch="true" condition-coverage="75% (3/4)" />
+            <line number="30" hits="2" branch="false" />
+            <line number="31" hits="2" branch="false" />
+            <line number="32" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
+            <line number="35" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Bongo.Models.Tests" line-rate="0.8888888888888888" branch-rate="1" complexity="3">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\Shreyan\.nuget\packages\microsoft.net.test.sdk\17.2.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Bongo.Models.DateInFutureAttributeTests" filename="D:\Workspace\Projects\Sparky_UnitTesting\Bongo.Models.Tests\DateInFutureAttributeTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="DateValidator_InputExpectedDateRange_DateValidity" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="false" />
+                <line number="14" hits="4" branch="false" />
+                <line number="15" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="DateValidator_NotValidDate_ReturnErrorMessage" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="4" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

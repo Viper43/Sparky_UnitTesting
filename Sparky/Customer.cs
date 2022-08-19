@@ -6,14 +6,29 @@ using System.Threading.Tasks;
 
 namespace Sparky
 {
-    public class Customer
+    public interface ICustomer
+    {
+        
+        int Discount { get; set; }
+        string GreetingMsg { get; set; }
+
+        int OrderTotal { get; set; }
+
+        bool IsPlatinum { get; set; }
+
+        string GreetAndCombineNames(string firstName, string lastName);
+
+        CustomerType GetCustomerType();
+    }
+    public class Customer : ICustomer
     {
         public Customer()
         {
+            Discount = 15;
             IsPlatinum = false;
         }
 
-        public int Discount = 15;
+        public int Discount { get; set; }
         public string GreetingMsg { get; set; }
 
         public int OrderTotal { get; set; }

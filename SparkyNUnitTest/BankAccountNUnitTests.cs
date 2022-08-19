@@ -123,6 +123,32 @@ namespace Sparky
             Assert.That(logMock.Object.Severity, Is.EqualTo(10));
             Assert.That(logMock.Object.LogType, Is.EqualTo("warning"));
 
+            // callback
+            string logTemp = "Hello, ";
+            logMock.Setup(u => u.LogToDB(It.IsAny<string>())).Returns(true).Callback((string str) => logTemp += str);
+            logMock.Object.LogToDB("Eleven");
+            Assert.That(logTemp, Is.EqualTo("Hello, Eleven"));
+
+            // callback
+            int count = 5;
+            logMock.Setup(u => u.LogToDB(It.IsAny<string>())).Returns(true).Callback(() => count++);
+            logMock.Object.LogToDB("Eleven");
+            Assert.That(count, Is.EqualTo(6));
+
+        }
+
+        [Test]
+        public void BankLogDummy_VerifyExample()
+        {
+            var logMock = new Mock<ILogBook>();
+            var bankAccount = new BankAccount(logMock.Object);
+            bankAccount.Deposit(100);
+
+            Assert.That(bankAccount.GetBalance(), Is.EqualTo(100));
+
+            logMock.Verify(u => u.Message(It.IsAny<string>()), Times.Exactly(2));
+            logMock.Verify(u => u.Message("Test"), Times.AtLeastOnce);
+            logMock.VerifySet(u => u.Severity = 101, Times.Once);
         }
     }
 }
